@@ -1,0 +1,925 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+/* HEADER START */
+.header{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header .logo a{
+    font-size: 35px;
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+}
+.header .logo span{
+    color: red;
+}
+.header nav ul {
+    display: flex;
+    align-items: center;
+}
+.header nav ul li{
+    list-style: none;
+    margin: 0 35px;
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: #9097A0;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.social-media i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid red;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+    margin-left: 7px;
+}
+.social-media .fa-facebook-f{
+    color: #3B5998;
+    border-color:#3B5998;
+}
+.social-media .fa-twitter{
+    color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+.social-media .fa-instagram{
+    color: #E4405F;
+    border-color: #E4405F;
+}
+.header .mobile-bars{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+/* HEADER END */
+
+
+
+/* MAIN PAGE START */
+.main-page{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    height: 700px;
+}
+.main-page .main-img{
+    width: 50%;
+    height: 100%;
+}
+.main-page .main-img img{
+    width: 100%;
+    height: 100%;
+}
+.main-text{
+    margin-top: 50px;
+
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    height: 600px;
+    justify-content: space-evenly;
+}
+.main-text h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: 5px;
+    font-weight: normal;
+    
+}
+.main-text h1{
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    line-height:100px;
+    color: #263238;
+}
+.main-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: normal;
+}
+.main-text .button a{
+    padding: 11px 50px;
+    background-color: #0E4DA4;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+/* MAIN PAGE END */
+
+
+/* PAGE-TWO START */
+.page-two{
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.page-two .title{
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    flex:2;
+    color: #263238;
+}
+.page-two .title .button{
+    margin-top:20px;
+}
+.page-two .title .button a{
+    padding: 11px 50px;
+    color: #0e4da4;
+    border:1px solid #0e4da4;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.page-two .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 50px;
+}
+.page-two .cards .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.page-two .cards .card .text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+.page-two .cards .card .text p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+/* PAGE - TWO END */
+
+
+/* PAGE - THREE START */
+.page-three{
+    width: 100%;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 300px;
+}
+.page-three .three-text{
+    font-family: 'Poppins', sans-serif;
+    color: #263238;
+}
+.page-three .three-text h1{
+    font-size: 56px;
+    line-height: 70px;
+}
+.page-three .three-text p{
+    font-size: 16px;
+    color: black;
+    margin-top: 25px;
+}
+/* PAGE - THREE END */
+
+
+/* OUR WORK PAGE START */
+.our-work{
+    width: 100%;
+    margin-top: 200px;
+}
+.our-work .work-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work-title h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: #263238;
+}
+.work-title p{
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.buttons button{
+    width: 130px;
+    height: 48px;
+    margin-left: -1px;
+    border: none;
+    background-color: rgba(201, 201, 201, 0.17);
+    border: 1px solid #DEDEDE;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.buttons button.active{
+    background-color: #0E4DA4;
+    color: white;
+}
+.work-img{
+    text-align: center;
+    margin-top: 75px;
+}
+.our-work .button{
+    text-align: center;
+    margin-top: 75px;
+}
+.our-work .button a{
+    padding: 11px 40px;
+    background-color: transparent;
+    color: #0E4DA4;
+    border: 1px solid #0e4da4;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+}
+/* OUR WORK PAGE END */
+
+
+/* CONTACT-US START */
+.contact-us{
+    width: 100%;
+    height: 300px;
+    background-color: #F8F8F8;
+    margin-top: 150px;
+    display: flex;
+}
+.contact-us .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+.contact-us .contact-us-text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contact-us .contact-us-text h1{
+    font-size: 56px;
+    font-family: 'Poppins', sans-serif;
+    color: #263238;
+}
+.contact-us .contact-us-text p{
+    color: #263238;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.contact-us .button a{
+    padding: 13px 50px;
+    background-color: #0E4DA4;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+/* CONTACT-US END */
+
+
+
+
+/* OUR-TEAM START */
+.our-team{
+    width: 100%;
+    margin-top: 150px;
+}
+.our-team .our-team-title{
+    width: 100%;
+    text-align: center;
+}
+.our-team .our-team-title h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: #263238;
+}
+.our-team .our-team-title p{
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.our-team-area {
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: 0.1fr 1fr 2fr;
+    gap: 50px;
+}
+.our-team-area .little-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our-team-area .little-img img{
+    margin-top: 25px;
+}
+.our-team-area .little-img .active{
+    border: 5px solid #0076FF;
+    border-radius: 50%;
+}
+
+.our-team-area .our-team-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+}
+
+.our-team-area .our-team-text h4{
+    color: #263238;
+    font-size: 16px;
+    
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.our-team-area .our-team-text h1{
+    font-size: 56px;
+    color: #263238;
+}
+.our-team-area .our-team-text p{
+    color:#263238;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* OUR-TEAM START */
+
+/* COMMENT-PAGE START */
+.comment-page{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    margin-top: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+.comment-page .comment-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.comment-page .comment-title h1{
+    color: #263238;
+    font-size: 34px;
+    font-weight: 700;
+}
+.comment-page .comment-title p{
+    font-size: 16px;
+    font-style:400;
+    color: #263238;
+}
+.comment-page .comment-title .button a{
+    padding: 11px 50px;
+    background-color: #0E4DA4;
+    color: white;
+}
+.comment-cards{
+    display: flex;
+
+}
+.comment-cards .card{
+    width: 45%;
+    height: 250px;
+    border: 1px solid #EEEEEE;
+    margin-left: 25px;
+    padding: 25px;
+    display: grid;
+    grid-template-rows:130px 80px;
+    gap: 30px;
+    border-radius: 10px;
+}
+.comment-cards .card .card-user{
+    display: flex;
+}
+.comment-cards .card p{
+    color: #7B7B7B;
+}
+.comment-cards .card .card-user .text-user{
+    margin-left: 20px;
+}
+.comment-cards .card .card-user .text-user h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+.comment-cards .card .card-user .text-user  h5{
+    font-size: 12px;
+}
+/* COMMENT-PAGE START */
+
+
+/* CUPON-PAGE START */
+.cupon-page{
+    width: 100%;
+    margin-top: 200px;
+    display:grid;
+    grid-template-columns: 55% 45%;
+    font-family: 'Poppins', sans-serif;
+}
+.cupon-page .cupon-page-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.cupon-page .cupon-page-text .cupon-title h1{
+    color: #263238;
+    font-size: 56px;
+    line-height: 70px;
+}
+.cupon-page .cupon-page-text .cupon-input input{
+    width: 370px;
+    height: 50px;
+    margin-top: 35px;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+}
+.cupon-page .cupon-page-text .cupon-input input::placeholder{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.cupon-page .cupon-page-text .cupon-input a{
+    padding: 11px 50px;
+    background-color: #0E4DA4;
+    color: white;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+.cupon-page .cupon-page-text p{
+    color: #263238;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.cupon-page .cupon-page-img{
+    display: flex;
+    justify-content: flex-end;
+}
+/* CUPON-PAGE END */
+
+
+/* RESPONSIIVE */
+@media (max-width:1450px){
+    .main-text h1{
+        font-size: 60px;
+        line-height: 75px;
+    }
+    .main-text p{
+        font-size: 23px;
+    }
+    .page-two .title h1{
+        font-size: 35px;
+    }
+    .comment-cards .card p{
+        font-size: 13px;
+    }
+    .comment-cards .card .card-user .text-user h4{
+        font-size: 15px;
+    }
+    .cupon-page{
+        grid-template-columns: 40% 60%;
+    }
+
+    .cupon-page .cupon-page-text .cupon-title h1{
+        font-size: 45px;
+    }
+    .cupon-page .cupon-page-text  .cupon-input{
+        display: flex;
+        flex-direction: column;
+    }
+    .cupon-page .cupon-page-text  .cupon-input input{
+        width: 320px;
+    }
+    .cupon-page .cupon-page-text  .cupon-input a{
+        width: 170px;
+        margin-top: 15px;
+        margin-left: 70px;
+    }
+
+}
+
+
+@media (max-width:968px){
+    .main-text{
+        height: 70%;
+    }
+    .main-text h4{
+        font-size: 15px;
+    }
+    .main-text h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .main-text p {
+        font-size: 20px;
+    }
+    .main-page .main-img img{
+        height: 70%;
+    }
+    .page-two{
+        margin: 0;
+    }
+    .page-two .title h1{
+        font-size: 20px;
+    }
+    .page-two .cards .card .text h1{
+        font-size: 20px;
+    }
+    .page-two .cards .card .text p{
+        font-size: 15px;
+    }
+    .page-three .three-text h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .page-three .three-text p{
+        font-size: 13px;
+    }
+    .page-three{
+        gap: 100px;
+    }
+
+    .our-work .work-title h1{
+        font-size: 50px;
+    }
+    .our-work .work-title  p{
+        font-size: 15px;
+    }
+    .our-work .buttons button{
+        width: 100px;
+
+    }
+    .work-img .image1{
+        width: 100%;
+    }
+    .contact-us .contact-us-text h1{
+        font-size: 35px;
+    }
+    .contact-us .contact-us-text p{
+        font-size: 13px;
+    }
+    .our-team .our-team-title h1{
+        font-size: 50px;
+
+    }
+    .our-team .our-team-title p{
+        font-size: 15px;
+    }
+    .our-team .our-team-area{
+        gap: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .our-team-area .little-img{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .our-team-area .little-img img{
+        margin-left: 20px;
+    }
+    .our-team-area .img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .our-team-area .our-team-text h1{
+        font-size: 45px;
+        line-height: 55px
+      
+    }
+    .our-team-area .our-team-text p{
+        font-size:  15px;
+    }
+    .our-team-text .social-media{
+        margin-top: 10px;
+    }
+    .comment-page{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .comment-page .comment-title h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .comment-page .comment-title p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .comment-page .comment-title .button{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .comment-page .comment-title .button a{
+        padding: 11px 30px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    .comment-page .comment-cards{
+        margin-top: 50px;
+    }
+    .cupon-page .cupon-page-text .cupon-title h1{
+        font-size: 30px;
+
+    }
+    
+}
+@media (max-width:768px){
+
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    /* HEADER START */
+    .header{
+        display: flex;
+        align-items: center;
+       justify-content: space-between;
+    }
+    .header nav ul{
+        display: none;
+    }
+    .header .mobile-bars{
+        display: block;
+        
+    }
+    .header .mobile-bars a{
+        font-size: 25px;
+        color: #E4405F;
+    }
+    .header .social-media{
+        margin-left: -50px;
+    }
+    .header .social-media i{
+        margin: 0 5px;
+        padding: 0;
+    }
+    .mobile-menu{
+        width: 35%;
+        height: 500px;
+        background-color: #fff;
+        box-shadow: 0 20px 20px rgba(0,0,0,0.5);
+        position: absolute;
+        top: 55px;
+        left: 0;
+        display: block;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+    }
+    .mobile-menu.active{
+        transform: translateX(0);
+    }
+
+    .mobile-menu nav ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .mobile-menu nav ul li{
+        margin-top: 50px;
+    }
+    .mobile-menu nav ul li a{
+        font-size: 20px;
+        color: #9097A0;
+        
+    }
+    /* HEADER  END */
+
+    /* MAIN-PAGE START */
+    .main-page{
+        height: 500px;
+    }
+    .main-page .main-img{
+        width: 60%;
+    }
+    .main-page .main-img img{
+        width: 100%;
+    }
+    .main-page .main-text{
+        width: 40%;
+        margin-left:15px;
+    }
+    .main-text h4{
+        font-size: 12px;
+    }
+    .main-text h1{
+        font-size: 19px;
+        line-height:22px;
+    }
+    .main-text p{
+        font-size: 12px;
+    }
+    .main-text .button a{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    /* MAIN-PAGE END */
+
+    /* TWO-PAGE START */
+    .page-two .title h1{
+        font-size: 15px;
+    }
+    .page-two .title .button a{
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .page-two .title .button{
+        margin-top: 5px;
+    }
+    .page-two .cards .card .text h1{
+        font-size: 15px;
+    }
+    .page-two .cards .card .text p{
+        font-size: 10px;
+    }
+    .page-two .cards{
+        gap: 10px;
+    }
+    /* TWO-PAGE END */
+
+
+    /* PAGE-THREE START */
+    .page-three{
+        gap: 10px;
+    }
+    .page-three .three-text h1{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .page-three .three-text p{
+        font-size: 12px;
+    }
+    .page-three .three-img{
+        width: 100%;
+        height: 100%;
+    }
+    .page-three .three-img img{
+        width: 100%;
+        height: 100%;
+    }
+    /* PAGE-THREE END */
+
+    /* OUR WORK START */
+    .our-work .work-title p{
+        font-size: 14px;
+    }
+    .our-work .buttons{
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .our-work .buttons button{
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    .our-work .work-img{
+        margin-top: 20px;
+    }
+    .our-work .work-img img:nth-child(2){
+        width: 100%;
+    }
+    .our-work .work-img img:nth-child(4){
+        width: 100%;
+    }
+    .our-work .work-img img:nth-child(5){
+        width: 100%;
+    }
+    /* OUR WORK END */
+
+    /* CONTACT US START */
+    .contact-us .container .contact-us-text{
+        width: 70%;
+    }
+    .contact-us .container .contact-us-text h1{
+        font-size:25px
+    }
+    .contact-us .container .contact-us-text p{
+        font-size:12px
+    }
+    .contact-us .container .button a{
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    /* CONTACT US END */
+
+
+    /* OUR-TEAM START */
+    .our-team .our-team-title p{
+        font-size: 14px;
+    }
+    .our-team .our-team-area .little-img{
+        width: 100%;
+    }
+    .our-team .our-team-area .little-img img{
+        width: 15%;
+    }
+    .our-team .our-team-area .img{
+        width: 100%;
+    }
+    .our-team .our-team-area .img img{
+        width: 100%;
+    }
+    .our-team .our-team-area .our-team-text h1{
+        font-size: 40px;
+    }
+    .our-team .our-team-area .our-team-text p{
+        font-size: 12px;
+    }
+    /* OUR-TEAM END */
+
+    /* COMMENT PAGE START */
+    .comment-page .comment-cards{
+        display: flex;
+        flex-direction: column;
+    }   
+    .comment-page .comment-cards .card{
+        width: 100%;
+        height: 250px;
+        margin:10px 0;
+    } 
+    /* COMMENT PAGE END */
+
+    /* CUPON PAGE START */
+    .cupon-page{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .cupon-page .cupon-page-text .cupon-title h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .cupon-page .cupon-page-text  p{
+        text-align: center;
+    }
+    .cupon-page .cupon-page-img{
+        width: 40%;
+        position: absolute;
+        top: -50px;
+        right: 0;
+    }
+    .cupon-page .cupon-page-img img{
+        width: 100%;
+    }
+    /* CUPON PAGE END */
+
+
+
+
+
+
+}
+
+/* RESPONSIVE END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
